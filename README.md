@@ -38,6 +38,8 @@ Uruchom:
 pip install aztecdecoder
 ```
 
+Paczka dostępna na https://pypi.python.org/pypi/aztecdecoder/
+
 ####Użycie dekodera AZTEC 2D w Python v3
 
 ```python
