@@ -1,5 +1,9 @@
 #Dekoder Kodu AZTEC 2D z Dowodu Rejestracyjnego dla Python
 
+Uwaga: kody AZTEC 2D są zgodne z ISO/IEC 24778:2008; można je dekodować bez potrzeby uzyskiwania licencji przy użyciu otwartego oprogramowania dostępnego na:
+
+https://github.com/dex4er/drpdecompress
+
 Oferujemy Państwu usługę Web API pozwalającą zdekodować dane z kodu AZTEC 2D zapisanego w dowodach rejestracyjnych pojazdów samochodowych.
 
 ![Kod AZTEC 2D zapisany w formie obrazkowej w dowodzie rejestracyjnym pojazdu](https://www.pelock.com/img/pl/produkty/dekoder-aztec/dowod-rejestracyjny-kod-aztec-2d.jpg)
