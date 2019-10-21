@@ -60,7 +60,7 @@ aztec_decoder = aztecdecoder.AZTecDecoder("ABCD-ABCD-ABCD-ABCD")
 decoded_array = aztec_decoder.decode_image_from_file("C:\\sciezka\\zdjecie-dowodu.jpg")
 
 # czy udało się zdekodować dane?
-if decoded_array and decoded_array["Status"]:
+if decoded_array and "Status" in decoded_array:
 
     # wyświetl rozkodowane dane (są zapisane jako rozkodowana tablica elementów JSON)
     pprint(decoded_array)
