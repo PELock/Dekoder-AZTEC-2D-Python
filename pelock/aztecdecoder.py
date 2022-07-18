@@ -8,7 +8,7 @@
 # Jezyk          : Python v3
 # Zaleznosci     : requests (https://pypi.python.org/pypi/requests/)
 # Autor          : Bartosz Wójcik (support@pelock.com)
-# Strona domowa  : http://www.dekoderaztec.pl | https://www.pelock.com
+# Strona domowa  : https://www.dekoderaztec.pl | https://www.pelock.com
 #
 
 import struct

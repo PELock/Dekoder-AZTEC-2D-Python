@@ -100,4 +100,4 @@ if decoded_text:
 ```
 
 Bartosz Wójcik
-https://www.pelock.com | http://www.dekoderaztec.pl
+https://www.pelock.com | https://www.dekoderaztec.pl
