@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aztecdecoder"
+dynamic = ["version", "readme"]
+description = "Biblioteka programistyczna pozwalająca na dekodowanie danych z dowodów rejestracyjnych pojazdów samochodowych zapisanych w formie kodu AZTEC 2D."
+keywords = ["aztec2d", "aztec-decoder", "aztec", "vin", "vehicle"]
+license = "Apache-2.0"
+authors = [
+    { name = "Bartosz Wójcik", email = "support@pelock.com" },
+]
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28.0",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: Polish",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://www.pelock.com/pl/produkty/dekoder-aztec"
+Source = "https://github.com/PELock/Dekoder-AZTEC-2D-Python"
+"Bug Tracker" = "https://github.com/PELock/Dekoder-AZTEC-2D-Python/issues"
+
+[tool.setuptools]
+packages = ["pelock"]
+zip-safe = false
+
+[tool.setuptools.dynamic]
+version = { attr = "pelock.__version__" }
+readme = { file = ["README.md"], content-type = "text/markdown" }
