@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aztecdecoder"
-dynamic = ["version", "readme"]
+dynamic = ["version"]
 description = "Biblioteka programistyczna pozwalająca na dekodowanie danych z dowodów rejestracyjnych pojazdów samochodowych zapisanych w formie kodu AZTEC 2D."
+readme = "README.md"
 keywords = ["aztec2d", "aztec-decoder", "aztec", "vin", "vehicle"]
 license = "Apache-2.0"
 authors = [
@@ -39,4 +40,4 @@ zip-safe = false
 
 [tool.setuptools.dynamic]
 version = { attr = "pelock.__version__" }
-readme = { file = ["README.md"], content-type = "text/markdown" }
+
